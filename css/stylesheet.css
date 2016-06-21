@@ -9,6 +9,13 @@
     font-weight: normal;
     font-style: normal;
 
+} 
+ 
+@media screen and (max-width: 1280px)
+{
+    #lisere{
+        display: none;
+    }
 }
 
 body{
@@ -38,6 +45,7 @@ body{
 
 section{
   display: flex;
+  flex-wrap: wrap;
 }
 
 header{

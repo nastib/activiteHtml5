@@ -1,0 +1,47 @@
+/* Définition des polices personnalisées */
+@font-face {
+    font-family: 'wc_mano_negra_btaregular';
+    src: url('Polices/WCManoNegraBta-webfont.eot');
+    src: url('Polices/WCManoNegraBta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/WCManoNegraBta-webfont.woff') format('woff'),
+         url('Polices/WCManoNegraBta-webfont.ttf') format('truetype'),
+         url('Polices/WCManoNegraBta-webfont.svg#wc_mano_negra_btaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    
+    margin: auto; 
+    width: 50%; 
+    background-color: #efefef; 
+    color : #463f33;
+    background-image: url("fond-arrondi.png");
+}
+
+h1 { 
+    font-family : wc_mano_negra_btaregular, 'Comic Sans MS', sans-serif; 
+    color :#3b8eba;
+    margin-bottom : 5px;
+}
+
+img{
+    float :right;
+    padding: 0;
+    margin: 0 0 35px 0;
+    border: 2px solid #3b8eba;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #3b8eba;
+}
+h2{
+    color:#3b8eba;
+}
+
+h4{
+ margin-top: 0;
+}
+
+li{
+    margin-bottom: 10px;
+}

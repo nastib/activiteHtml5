@@ -12,13 +12,42 @@
 }
 
 body{
-    
-    margin: auto;  
-    width: 50%; 
-    background-color: #efefef; 
     color : #463f33;
     background-image: url("fond-arrondi.png");
 }
+
+#container{
+ display: flex;
+}
+
+#lisere{
+    border:2px solid white;
+    background-color: grey;
+    box-shadow: 6px 6px 6px #000;
+    height: 500px;
+    min-width: 50px;
+    width: 8%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#subContainer{
+    flex:1;
+    margin-left: 10px;
+}
+
+section{
+  display: flex;
+}
+
+header{
+    height: 120px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+
+#name{flex:1}
 
 h1 { 
     font-family : wc_mano_negra_btaregular, 'Comic Sans MS', sans-serif; 
@@ -26,22 +55,25 @@ h1 {
     margin-bottom : 5px;
 }
 
-img{
-    float :right;
-    padding: 0;
-    margin: 0 0 35px 0;
-    border: 2px solid #3b8eba;
-    border-radius: 5px;
-    box-shadow: 6px 6px 6px #3b8eba;
-}
-h2{
-    color:#3b8eba;
-}
-
 h4{
  margin-top: 0;
 }
 
+img{
+    padding: 0;
+    margin: 0 35px 35px 0;
+    border: 4px solid white;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #000;
+}
+
+h2{
+    color:#3b8eba;
+}
 li{
     margin-bottom: 10px;
 }
+
+article:nth-child(1),article:nth-child(2),article:nth-child(3){
+    margin: 5px 5px 5px 5px;
+ }
